@@ -15,36 +15,95 @@ h1 {
 	padding-top: 1em;
 	font-family: 'Ropa Sans', sans-serif;
 	text-align: center;
+	margin-bottom: 5em;
 	color:#212529;
 }
 h2 {
   font-family: 'Jaldi', sans-serif;
-  color: #783F27;
-  text-transform: uppercase;
-  border-left: solid 1px;
-  border-bottom: solid 1px;
+  border: 1px solid black;
   width: 10%;
-}
 }
 
 section {
 	background-color: #FDEBD0;
 	position:relative;
+	width: 100%;
+	overflow: none;
+	border: 1px solid black;
+	padding: 2em;
+	margin:2em;
 }
 	
 .one {
+	overflow: none;
 	background-color:#F1948A;
+	text-align: center;
+        width: 80px;
+	height: 40px;
+	padding: 1em;
+	float: right;
+	margin-right: 1em;
+	margin-top: 0;
+	font-weight: bold;
 	position: relative;
-	top: 2px;
-	right: 2px;
 }
 .two {
+	overflow: none;
 	background-color:#AED6F1;
-	top: 2px;
-	right: 2px;
+	text-align: center;
+        width: 80px;
+	height: 40px;
+	padding: 1em;
+	float: right;
+	margin-right: 1em;
+	margin-top: 0;
+	font-weight: bold;
+	position: relative;
 }
 .three {
+	overflow: none;
 	background-color:#A9DFBF;
-	top: 2px;
-	right: 2px;
+	text-align: center;
+        width: 80px;
+	height: 40px;
+	padding: 1em;
+	float: right;
+	margin-right: 1em;
+	margin-top: 0;
+	font-weight: bold;
+	position: relative;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;
+    width: 33.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+  .name3{
+    margin-right: 65px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+  .content-name{
+    margin-right: 30px;
+  }
 }
