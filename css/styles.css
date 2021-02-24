@@ -40,28 +40,35 @@ section {
 	
 .one {
 	background-color:#F1948A;
+	position: relative;
+	top: 2px;
+	right: 2px;
 }
 .two {
 	background-color:#AED6F1;
+	top: 2px;
+	right: 2px;
 }
 .three {
 	background-color:#A9DFBF;
+	top: 2px;
+	right: 2px;
 }
 
 @media (min-width: 992px){
-    section {
+    #one {
   	    width: 33%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	section {
+    #two {
 		width: 50%;
 	}
 }
 
 @media (max-width: 767px) {
-	section {
+    #three {
 		width: 100%;
 	}
 }
