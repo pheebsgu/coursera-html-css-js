@@ -49,19 +49,19 @@ section {
 }
 
 @media (min-width: 992px){
-    section #one {
+    section {
   	    width: 33%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	section #two {
+	section {
 		width: 50%;
 	}
 }
 
 @media (max-width: 767px) {
-	section #three {
+	section {
 		width: 100%;
 	}
 }
