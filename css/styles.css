@@ -24,6 +24,10 @@ h2 {
   width: 10%;
 }
 
+.row{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 section {
 	background-color: #FDEBD0;
 	position:relative;
