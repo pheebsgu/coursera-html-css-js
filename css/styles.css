@@ -26,13 +26,12 @@ h2 {
   text-transform: uppercase;
   border-left: solid 1px;
   border-bottom: solid 1px;
-  background: #E9ECEF;
   width: 10%;
 }
 }
 
-section {
-	background-color:#FDEBD0;
+section #one, #two, #three {
+	background-color: #FDEBD0;
 	position:relative;
 }
 	
