@@ -36,6 +36,7 @@ h2 {
 
 section {
 	background-color:#FDEBD0;
+	position:relative;
 }
 	
 .one {
@@ -57,18 +58,18 @@ section {
 
 @media (min-width: 992px){
     #one {
-  	    width: 33%;
+  	    width: 33.3%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     #two {
-		width: 50%;
+	    width: 50%;
 	}
 }
 
 @media (max-width: 767px) {
     #three {
-		width: 100%;
+	    width: 100%;
 	}
 }
