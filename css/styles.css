@@ -38,30 +38,30 @@ section {
 	background-color:#FDEBD0;
 }
 	
-#one {
+.one {
 	background-color:#F1948A;
 }
-#two {
+.two {
 	background-color:#AED6F1;
 }
-#three {
+.three {
 	background-color:#A9DFBF;
 }
 
 @media (min-width: 992px){
-    section .one {
+    section #one {
   	    width: 33%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	section .two {
+	section #two {
 		width: 50%;
 	}
 }
 
 @media (max-width: 767px) {
-	section .three {
+	section #three {
 		width: 100%;
 	}
 }
