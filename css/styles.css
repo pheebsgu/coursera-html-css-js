@@ -21,7 +21,8 @@ h1 {
 h2 {
   font-family: 'Jaldi', sans-serif;
   border: 1px solid black;
-  width: 10%;
+  width: 30%;
+  height: 20%;	
 }
 
 .row{
@@ -35,15 +36,14 @@ section {
 	overflow: none;
 	border: 1px solid black;
 	padding: 2em;
-	margin:2em;
+	margin:5em;
+	height: 
 }
 	
 .one {
 	overflow: none;
 	background-color:#F1948A;
 	text-align: center;
-        width: 80px;
-	height: 40px;
 	padding: 1em;
 	float: right;
 	margin-right: 1em;
@@ -55,8 +55,6 @@ section {
 	overflow: none;
 	background-color:#AED6F1;
 	text-align: center;
-        width: 80px;
-	height: 40px;
 	padding: 1em;
 	float: right;
 	margin-right: 1em;
@@ -68,8 +66,6 @@ section {
 	overflow: none;
 	background-color:#A9DFBF;
 	text-align: center;
-        width: 80px;
-	height: 40px;
 	padding: 1em;
 	float: right;
 	margin-right: 1em;
