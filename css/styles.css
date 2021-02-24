@@ -1,17 +1,14 @@
-@charset "UTF-8";
-html {
+
+* {
 	box-sizing:border-box;
 }
-* {
-    box-sizing:inherit;
-  } 
+
 
 body {
   font-family: 'PT Serif', serif;
   font-size: 100%;
-  background-color: white;
-  line-height: 1.5em;
-  margin: 0;/* resets margins for entire documents */
+  margin: 0;
+  padding: 0; 
 }
 
 h1 {
@@ -30,7 +27,7 @@ h2 {
 }
 }
 
-section #one, #two, #three {
+section {
 	background-color: #FDEBD0;
 	position:relative;
 }
@@ -50,22 +47,4 @@ section #one, #two, #three {
 	background-color:#A9DFBF;
 	top: 2px;
 	right: 2px;
-}
-
-@media (min-width: 992px){
-    #one {
-  	    width: 33.3%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    #two {
-	    width: 50%;
-	}
-}
-
-@media (max-width: 767px) {
-    #three {
-	    width: 100%;
-	}
 }
