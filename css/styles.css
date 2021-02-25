@@ -26,7 +26,7 @@ section {
 	overflow: none;
 	border: 1px solid black;
 	padding: 1em;
-	margin:.2em;
+	margin:2.5%;
 }
 
 p {
@@ -42,6 +42,7 @@ p {
 	float: right;
 	margin-right: .2em;
 	margin-top: 0;
+	
 	font-weight: bold;
 	font-family: 'Jaldi', sans-serif;
         border: 1px solid black;
