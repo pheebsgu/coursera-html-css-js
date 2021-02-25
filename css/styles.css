@@ -36,51 +36,28 @@ section {
   overflow: auto;
 }
 
-.one {
-	overflow: none;
-	background-color:#F1948A;
+.title-name {
+        overflow: none;
 	text-align: center;
 	padding: .2em;
 	float: right;
 	margin-right: .2em;
 	margin-top: 0;
-	
 	font-weight: bold;
 	font-family: 'Jaldi', sans-serif;
         border: 1px solid black;
         width: 30%;
         height: 20%;	
 	position: relative;
+}
+.one {
+	background-color:#F1948A;
 }
 .two {
-	overflow: none;
 	background-color:#AED6F1;
-	text-align: center;
-	padding: .2em;
-	float: right;
-	margin-right: .2em;
-	margin-top: 0;
-	font-weight: bold;
-	font-family: 'Jaldi', sans-serif;
-        border: 1px solid black;
-        width: 30%;
-        height: 20%;	
-	position: relative;
 }
 .three {
-	overflow: none;
 	background-color:#A9DFBF;
-	text-align: center;
-	padding: .2em;
-	float: right;
-	margin-right: .2em;
-	margin-top: 0;
-	font-weight: bold;
-	font-family: 'Jaldi', sans-serif;
-        border: 1px solid black;
-        width: 30%;
-        height: 20%;	
-	position: relative;
 }
 
 /********** large devices only **********/
