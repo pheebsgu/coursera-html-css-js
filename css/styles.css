@@ -20,20 +20,20 @@ h1 {
 }
 
 section {
-	background-color: #FDEBD0;
-	position:relative;
 	width: 100%;
 	overflow: none;
-	border: 1px solid black;
-	padding: 1em;
-	margin:2.5%;
 }
 
 .content {
-  position: relative;
-  clear: left;
+  background-color: #FDEBD0;
+  text-align: center;	
   width: 90%;	
   overflow: auto;
+  border: 1px solid black;
+  font-weight: bold;
+  height: 20%;
+  padding: 10%;	
+  position: relative;
 }
 
 .title-name {
