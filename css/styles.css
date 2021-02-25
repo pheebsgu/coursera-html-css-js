@@ -25,15 +25,14 @@ section {
 }
 
 .content {
-  background-color: #FDEBD0;
-  text-align: center;	
-  width: 90%;	
-  overflow: auto;
   border: 1px solid black;
-  font-weight: bold;
-  height: 20%;
-  padding: 10%;	
-  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black;
+  font-size: 25px;
+  padding: 2%;
+  background-color: #FDEBD0;
 }
 
 .title-name {
