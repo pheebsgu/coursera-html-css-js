@@ -90,14 +90,19 @@ p {
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+  }
   .col-md-6 {
-    float: left;
     width: 50%;
-  }	  
+  }
   .col-md-12 {
-    float: left;
     margin-left: -10px;
     width: 100%;
+  }
+  .three{
+    margin-right: 65px;
+    width: 100px;
   }
 }
 
