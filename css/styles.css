@@ -28,6 +28,7 @@ h2 {
 .row{
   margin: 2%;
 }
+
 section {
 	background-color: #FDEBD0;
 	position:relative;
@@ -86,18 +87,15 @@ section {
   }
   .col-md-6 {
     width: 50%;
-  }
-  #three{
-    margin-right: 1em;
-    margin-top:1em;
-    width: 100%;
   }	  
   .col-md-12 {
     margin-left: -10px;
     width: 100%;
   }
-  
-  }
+  second > .three {
+    margin-right: 50px;
+    width: 100%;
+  } 
 }
 
 /********** small devices only **********/
@@ -105,8 +103,5 @@ section {
   .col-sm-12 {
     float: left;
     width: 100%;
-  }
-  .h2 {
-    margin-right: 30px;
   }
 }
