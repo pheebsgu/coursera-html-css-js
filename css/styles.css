@@ -44,7 +44,7 @@ section {
 	text-transform: uppercase;
 	padding: .5em;
 	float: right;
-	margin-right: .5em;
+	margin-right: 2.5%;
 	margin-top: 0;
 	font-weight: bold;
 	font-family: 'Jaldi', sans-serif;
@@ -80,7 +80,6 @@ section {
     width: 50%;
   }
   .col-md-12 {
-    margin-left: -10px;
     width: 100%;
   }
 }
