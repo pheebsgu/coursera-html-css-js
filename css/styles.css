@@ -36,7 +36,7 @@ section {
 	overflow: none;
 	border: 1px solid black;
 	padding: 1em;
-	margin:.5em;
+	margin:.2em;
 }
 	
 .one {
@@ -92,7 +92,7 @@ section {
     margin-left: -10px;
     width: 100%;
   }
-  second > .three {
+  .three, .three > p {
     margin-right: 50px;
     width: 100%;
   } 
