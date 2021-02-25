@@ -29,8 +29,6 @@ section {
   width: 90%;
   height: auto;
   margin: 2.5%;
-  color: black;
-  font-size: 25px;
   padding: 2%;
   background-color: #FDEBD0;
 }
@@ -39,9 +37,9 @@ section {
         overflow: none;
 	text-align: center;
 	text-transform: uppercase;
-	padding: .2em;
+	padding: .5em;
 	float: right;
-	margin-right: .2em;
+	margin-right: .5em;
 	margin-top: 0;
 	font-weight: bold;
 	font-family: 'Jaldi', sans-serif;
@@ -50,6 +48,7 @@ section {
         height: 20%;	
 	position: relative;
 }
+
 .one {
 	background-color:#F1948A;
 }
