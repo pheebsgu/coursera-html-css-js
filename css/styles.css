@@ -39,6 +39,7 @@ section {
 .title-name {
         overflow: none;
 	text-align: center;
+	text-transform: uppercase;
 	padding: .2em;
 	float: right;
 	margin-right: .2em;
