@@ -32,6 +32,8 @@ section {
 p {
   position: relative;
   clear: left;
+  width: 90%;	
+  overflow: auto;
 }
 
 .one {
