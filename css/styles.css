@@ -73,9 +73,10 @@ section {
 	position: relative;
 }
 
+/********** large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
-  	float: left;
+    float: left;
     width: 33.33%;
   }
 }
@@ -91,18 +92,19 @@ section {
     margin-left: -10px;
     width: 100%;
   }
-  .name3{
+  .three{
     margin-right: 65px;
     width: 100px;
   }
 }
 
+/********** small devices only **********/
 @media (min-width: 0px) and (max-width: 767px) {
   .col-sm-12 {
-  	float: left;
+    float: left;
     width: 100%;
   }
-  .content-name{
+  .h2 {
     margin-right: 30px;
   }
 }
