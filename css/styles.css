@@ -41,7 +41,7 @@ section {
 
 p {
   position: relative;
-  clear: right;
+  clear: left;
 }
 
 .one {
