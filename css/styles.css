@@ -87,13 +87,15 @@ section {
   .col-md-6 {
     width: 50%;
   }
+  .three{
+    margin-right: 1em;
+    width: 100%;
+	  
   .col-md-12 {
     margin-left: -10px;
     width: 100%;
   }
-  .three{
-    margin-right: 65px;
-    width: 100px;
+  
   }
 }
 
