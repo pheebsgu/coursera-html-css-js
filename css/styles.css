@@ -26,7 +26,7 @@ h2 {
 }
 
 .row{
-  margin: 5%;
+  margin: 2%;
 }
 section {
 	background-color: #FDEBD0;
@@ -34,7 +34,7 @@ section {
 	width: 100%;
 	overflow: none;
 	border: 1px solid black;
-	padding:1em;
+	padding: .5em;
 	margin:.5em;
 }
 	
