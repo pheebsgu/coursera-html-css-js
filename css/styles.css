@@ -29,7 +29,7 @@ section {
 	margin:2.5%;
 }
 
-p {
+.content {
   position: relative;
   clear: left;
   width: 90%;	
