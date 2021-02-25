@@ -34,7 +34,7 @@ section {
 	width: 100%;
 	overflow: none;
 	border: 1px solid black;
-	padding: .5em;
+	padding: 1em;
 	margin:.5em;
 }
 	
@@ -42,7 +42,7 @@ section {
 	overflow: none;
 	background-color:#F1948A;
 	text-align: center;
-	padding: .5em;
+	padding: .2em;
 	float: right;
 	margin-right: .2em;
 	margin-top: 0;
