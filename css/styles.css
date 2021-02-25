@@ -18,12 +18,6 @@ h1 {
 	margin-bottom: 1em;
 	color:#212529;
 }
-h2 {
-  font-family: 'Jaldi', sans-serif;
-  border: 1px solid black;
-  width: 30%;
-  height: 20%;	
-}
 
 section {
 	background-color: #FDEBD0;
@@ -49,6 +43,10 @@ p {
 	margin-right: .2em;
 	margin-top: 0;
 	font-weight: bold;
+	font-family: 'Jaldi', sans-serif;
+        border: 1px solid black;
+        width: 30%;
+        height: 20%;	
 	position: relative;
 }
 .two {
@@ -60,6 +58,10 @@ p {
 	margin-right: .2em;
 	margin-top: 0;
 	font-weight: bold;
+	font-family: 'Jaldi', sans-serif;
+        border: 1px solid black;
+        width: 30%;
+        height: 20%;	
 	position: relative;
 }
 .three {
@@ -71,6 +73,10 @@ p {
 	margin-right: .2em;
 	margin-top: 0;
 	font-weight: bold;
+	font-family: 'Jaldi', sans-serif;
+        border: 1px solid black;
+        width: 30%;
+        height: 20%;	
 	position: relative;
 }
 
