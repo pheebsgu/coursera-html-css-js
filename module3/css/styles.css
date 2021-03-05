@@ -9,7 +9,7 @@ body {
   padding: 0; 
 }
 
-.navbar-header{
+header{
   background: #6c757d;
 }
 h1 {
@@ -28,7 +28,7 @@ h2 {
 
 h3 {
   font-family: 'Jaldi', sans-serif;
-  font-size: 1.5em;
+  font-size: 3em;
   letter-spacing: .2em;
   color: #7A0002;
   margin-top: 1.5em;
