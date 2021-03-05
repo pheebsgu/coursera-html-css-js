@@ -4,11 +4,14 @@
 
 body {
   font-family: 'PT Serif', serif;
-  font-size: 100%;
+  font-size: 150%;
   margin: 0;
   padding: 0; 
 }
 
+.navbar-header{
+  background: #6c757d;
+}
 h1 {
   padding-top: .5em;
   font-family: 'Ropa Sans', sans-serif;
@@ -20,8 +23,6 @@ h1 {
 h2 {
   font-family: 'Jaldi', sans-serif;
   color: #6c757d;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
 }
 
 h3 {
@@ -38,5 +39,5 @@ h3 {
 }
 
 #main-content {
-  background-color: #783F27;
+  background-color: #FDAA71;
 }
