@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a1a1a;
@@ -8,6 +9,14 @@ body {
 
 /** HEADER **/
 
+=======
+  font-family: 'PT Serif', serif;
+  font-size: 150%;
+  margin: 0;
+  padding: 0; 
+}
+
+>>>>>>> 97d935fa2ed2e77f5281b7996ff2b63742c071df
 #header-nav {
     background-color: #c98715;
     border-radius: 0;
@@ -30,6 +39,7 @@ body {
     line-height: 76px;
     height: 76px;
     padding-top: 0;
+<<<<<<< HEAD
 }
 
 .navbar-brand h1 {
@@ -37,6 +47,22 @@ body {
     font-family: 'Abril Fatface', cursive;
     font-weight: bolder;
     font-size: 1.8em;
+=======
+}
+
+header{
+  background: #6c757d;
+}
+
+h1 {
+  padding-top: .5em;
+  font-family: 'Ropa Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size:1.2em;
+  color:#212529;
+>>>>>>> 97d935fa2ed2e77f5281b7996ff2b63742c071df
 }
 
 .navbar-brand a:hover {
@@ -45,6 +71,7 @@ body {
 }
 
 #nav-list {
+<<<<<<< HEAD
     background-color: #e4af34;
 }
 
@@ -68,10 +95,56 @@ body {
 
 
 /** HOME PAGE **/
+=======
+    background-color:#212529;
+  
+}
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+
+h2 {
+  font-family: 'Jaldi', sans-serif;
+  color: #6c757d;
+}
+
+h3 {
+  font-family: 'Jaldi', sans-serif;
+  font-size: .8em;
+  font-size: 2em;
+  letter-spacing: .2em;
+  color: #7A0002;
+  margin-top: 1em;
+} 
+>>>>>>> 97d935fa2ed2e77f5281b7996ff2b63742c071df
+
+#main-section {
+  background-color: #FDEBD0;
+  padding: 2%;
+}
 
 #main-content {
+<<<<<<< HEAD
     width: 92%;
     margin-bottom: 40px;
+=======
+   width: 90%;
+   margin-bottom: 5%;
+   background-color: #FDAA71;
+>>>>>>> 97d935fa2ed2e77f5281b7996ff2b63742c071df
 }
 
 #main-content h2 {
