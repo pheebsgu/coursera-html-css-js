@@ -4,15 +4,11 @@
 
 body {
   font-family: 'PT Serif', serif;
-<<<<<<< HEAD
-=======
   font-size: 150%;
->>>>>>> 9c823fef737509f398e16023e34efe457bb8b70e
   margin: 0;
   padding: 0; 
 }
 
-<<<<<<< HEAD
 #header-nav {
   background: #6c757d;
   border-radius: 0;
@@ -33,10 +29,10 @@ body {
 .navbar-brand, .navbar-nav li a {
     margin-top: 10px;
     padding-top: 0;
-=======
+}
+
 header{
   background: #6c757d;
->>>>>>> 9c823fef737509f398e16023e34efe457bb8b70e
 }
 
 h1 {
@@ -44,7 +40,6 @@ h1 {
   font-family: 'Ropa Sans', sans-serif;
   text-align: center;
   margin-bottom: 1em;
-<<<<<<< HEAD
   font-weight: bold;
   font-size:1.2em;
   color:#212529;
@@ -55,11 +50,27 @@ h1 {
     text-shadow: 1px 1px 1px #fe9797;
 }
 
-=======
-  color:#212529;
+#nav-list {
+    background-color:#212529;
+  
+}
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
 }
 
->>>>>>> 9c823fef737509f398e16023e34efe457bb8b70e
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+
 h2 {
   font-family: 'Jaldi', sans-serif;
   color: #6c757d;
@@ -67,20 +78,18 @@ h2 {
 
 h3 {
   font-family: 'Jaldi', sans-serif;
-<<<<<<< HEAD
   font-size: .8em;
-=======
   font-size: 2em;
->>>>>>> 9c823fef737509f398e16023e34efe457bb8b70e
   letter-spacing: .2em;
   color: #7A0002;
   margin-top: 1em;
 } 
 
-#main-content {
-<<<<<<< HEAD
-  width: 90%;
-=======
->>>>>>> 9c823fef737509f398e16023e34efe457bb8b70e
+#main-section {
   background-color: #FDAA71;
+}
+
+#main-content {
+   width: 90%;
+   margin-bottom: 5%;
 }
