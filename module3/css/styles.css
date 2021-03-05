@@ -17,6 +17,7 @@ body {
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #FDAA71;
+    text-decoration: none;
 }
 #header-nav button {
     margin-top: 2%;
@@ -29,6 +30,7 @@ body {
 .navbar-brand, .navbar-nav li a {
     margin-top: 10px;
     padding-top: 0;
+    text-aslign: center;
 }
 
 header{
@@ -51,7 +53,7 @@ h1 {
 }
 
 #nav-list {
-    background-color:#212529;
+    background-color:#FDAA71;
   
 }
 #nav-list a {
