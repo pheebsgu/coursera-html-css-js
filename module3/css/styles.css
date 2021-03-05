@@ -1,25 +1,25 @@
-* {
-  box-sizing:border-box;
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: #599e4b;
 }
 
-body {
-  font-family: 'PT Serif', serif;
-  font-size: 150%;
-  margin: 0;
-  padding: 0; 
-}
+
+/** HEADER **/
 
 #header-nav {
-  background: #6c757d;
-  border-radius: 0;
-  border: 0;
+    background-color: #c98715;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #FDAA71;
-}
-#header-nav button {
-    margin-top: 2%;
+    background-color: #fce29e;
 }
 
 .navbar-collapse {
@@ -27,22 +27,16 @@ body {
 }
 
 .navbar-brand, .navbar-nav li a {
-    margin-top: 10px;
+    line-height: 76px;
+    height: 76px;
     padding-top: 0;
 }
 
-header{
-  background: #6c757d;
-}
-
-h1 {
-  padding-top: .5em;
-  font-family: 'Ropa Sans', sans-serif;
-  text-align: center;
-  margin-bottom: 1em;
-  font-weight: bold;
-  font-size:1.2em;
-  color:#212529;
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
 }
 
 .navbar-brand a:hover {
@@ -51,9 +45,9 @@ h1 {
 }
 
 #nav-list {
-    background-color:#212529;
-  
+    background-color: #e4af34;
 }
+
 #nav-list a {
     font-weight: bolder;
     color: #282828;
@@ -70,26 +64,31 @@ h1 {
 }
 
 
+/** END HEADER */
 
-h2 {
-  font-family: 'Jaldi', sans-serif;
-  color: #6c757d;
-}
 
-h3 {
-  font-family: 'Jaldi', sans-serif;
-  font-size: .8em;
-  font-size: 2em;
-  letter-spacing: .2em;
-  color: #7A0002;
-  margin-top: 1em;
-} 
-
-#main-section {
-  background-color: #FDAA71;
-}
+/** HOME PAGE **/
 
 #main-content {
-   width: 90%;
-   margin-bottom: 5%;
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background-color: #82d06b;
+    box-shadow: 0 0 50px #0f5900;
+    padding: 30px;
 }
