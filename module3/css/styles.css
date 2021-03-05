@@ -18,6 +18,7 @@ h1 {
   text-align: center;
   margin-bottom: 1em;
   color:#212529;
+  position:relative;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
 
 h3 {
   font-family: 'Jaldi', sans-serif;
-  font-size: .8em;
+  font-size: 1.5em;
   letter-spacing: .2em;
   color: #7A0002;
   margin-top: 1.5em;
