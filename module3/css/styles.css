@@ -1,8 +1,8 @@
 body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #1a1a1a;
-    background-color: #599e4b;
+    color: #000000;
+    background-color: #FDAA71;
 }
 
 
@@ -88,7 +88,7 @@ body {
 }
 
 #main-section {
-    background-color: #82d06b;
+    background-color: #fce29e;
     box-shadow: 0 0 50px #0f5900;
     padding: 30px;
 }
