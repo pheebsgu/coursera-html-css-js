@@ -86,11 +86,12 @@ h3 {
 } 
 
 #main-section {
-  background-color: #FDAA71;
+  background-color: #FDEBD0;
+  padding: 2%;
 }
 
 #main-content {
-   padding: 2%;
    width: 90%;
    margin-bottom: 5%;
+   background-color: #FDAA71;
 }
